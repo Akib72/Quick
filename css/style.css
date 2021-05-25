@@ -1,0 +1,112 @@
+* { margin: 0px; padding: 0px; }
+header { overflow: hidden; width: 90%; margin-left: 5%; }
+
+.header { width: 100%; border-bottom: 2px solid rgb(230, 222, 215); }
+
+.logo {width: 33%;float: left;}
+
+img { width: 30%; }
+
+nav { width: 50%; margin-left: 50%; }
+
+nav ul { padding: 10px 0px; float: right; }
+
+nav li { font-family: monospace; font-size: 1.1em; list-style: none; margin-left: 25px; float: left; }
+nav a{
+    float: left;
+    color: black;
+}
+nav a:hover{
+    font-size: 120%;
+}
+.main {margin-top: 25px;width: 50%;margin-left: 25%;text-align: center;}
+
+.main-image { margin-bottom: 50px; }
+
+.main h1 { font-size: 40px; color: rgb(33, 33, 95); }
+
+.main h2 {font-size: 40px;color: blue;border-bottom: 3px solid black;}
+
+p { margin: 10px; }
+
+.main img { width: 40%; }
+
+.middle {margin-top: 40px;margin-bottom: 20px;padding: 20px 0px;overflow: hidden;width: 50%;margin-left: 25%;}
+
+.left { padding: 15px 0px; width: 49%; text-align: right; float: left; }
+
+.left h1 { color: tomato; }
+
+.right { width: 49%; float: right; }
+
+.right h1 { font-size: 40px; color: rgb(33, 33, 95); overflow: hidden; }
+
+.bottom {
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: 21%;
+    overflow: hidden;
+    }
+
+.left-part {
+    color: black;
+    width: 31%;
+    height: 350px;
+    margin-right: 28px;
+    background-color: #FEECEC;
+    float: left;
+    }
+.left-part h1{
+    padding: 0px 10px;
+}
+
+.middle-part {
+    color: black;
+    width: 31%;
+    height: 350px;
+    margin-right: 25px;
+    background-color: rgb(233, 250, 244);
+    float: left;
+    }
+.middle-part h1{
+        padding: 0px 10px;
+    }
+
+.right-part {
+    color: black;
+    width: 30%;
+    height: 350px;
+    background-color: #FFF8E8;
+    float: left;
+    }
+.right-part h1{
+        padding: 0px 10px;
+    }
+.left-part:hover{
+    border: 2px solid cadetblue;
+}
+.right-part:hover{
+    border: 2px solid cadetblue;
+}
+.middle-part:hover{
+    border: 2px solid cadetblue;
+}
+.bottom img { width: 100%; }
+
+.footer {
+     width: 100%;
+     text-align: center;
+     float: left;
+     margin-top: 15px;
+     background: crimson;
+     padding: 10px 0px;
+     }
+
+.footer p {
+     color: cyan;
+     font-family: monospace;
+     font-weight: lighter;
+     font-size: 0.8em;
+     }
+
+span { letter-spacing: 0.5em; color: white; font-size: 1.2em; }
